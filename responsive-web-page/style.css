@@ -1,3 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;400&display=swap');
+
 * {
-    background-color: red;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #F3EED9;
+    height: 450px;
+    color: #824936;
+}
+
+header p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: .8rem;
+    color: #000000;
+}
+
+header h1 {
+    font-size: 2.5rem;
+
+}
+
+.split {
+    padding: 40px 0px;
+}
+
+.split h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px 0;
+    color: #824936;
+}
+
+
+.split_para {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+
+.split_para div {
+    padding: 0 150px;
+    line-height: 1.2;
+}
+
+.split_one {
+    background-color: #222C2A;
+    height: 400px;
+}
+
+.split_two {
+    background-color: #824936;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.split_two div {
+    padding: 0 100px;
+
+}
+
+.spliting {
+    color: #fff;;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.spliting h2 {
+    padding: 0 0 20px 0;
+}
+
+.spliting .images {
+    width: 50%;
+}
+
+.spliting .txt {
+    width: 50%;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;;
+
+}
+
+.split_one div {
+    padding: 0 100px;
+}
+
+
+img {
+    width: 100%;
+
 }
